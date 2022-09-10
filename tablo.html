@@ -1,0 +1,96 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1>Tablo yapısı</h1>
+        <!-- içerikleri düzenli ve hizalı göstermek için kullanılır
+            tr => tablo satırını ifade eder....
+            th => tablo sütunu (başlık) ifade eder
+            td => tablo sütunu ifade eder....
+        -->
+        <table>
+            <thead> <!--tablosnun başlık kısmı-->
+                <tr>
+                    <th>Adı</th>
+                    <th>SoyAdı</th>
+                    <th>Adres</th>
+                </tr>
+            </thead>
+            <tbody> <!--tablonun gövde kısmı-->
+                <tr>
+                    <td> Ekrem</td>
+                    <td> Yıldırım</td>
+                    <td> Deneme Deneme Deneme</td>
+                </tr>
+                <tr>
+                    <td>Onur</td>
+                    <td>Derman</td>
+                    <td>Bla Bla Bla Bla Bla</td>
+                </tr>
+                <tr>
+                    <td>Ziya</td>
+                    <td>Erdoğdu</td>
+                    <td>Ankara</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+        <hr/>
+    
+        <!--table attribute -->
+        <table width="100%" border="1">
+            <thead> <!--tablosnun başlık kısmı-->
+                <tr>
+                    <th align="left">Adı</th>
+                    <th align="left">SoyAdı</th>
+                    <th align="left">Adres</th>
+                    <th align="left">Not</th>
+                </tr>
+            </thead>
+            <tbody> <!--tablonun gövde kısmı-->
+                <tr>
+                    <td> Ekrem</td>
+                    <td> Yıldırım</td>
+                    <td> Deneme Deneme Deneme</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td>Onur</td>
+                    <td>Derman</td>
+                    <td>Bla Bla Bla Bla Bla</td>
+                    <td>30</td>
+                </tr>
+                <tr>
+                    <td>Ziya</td>
+                    <td>Erdoğdu</td>
+                    <td>Ankara</td>
+                    <td>80</td>
+                </tr>
+                <tr>
+                    <td colspan="3" align="right">Genel Toplam</td>
+                    <td>210</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr /> 
+        <table border="1" cellspacing="1" width="300px">
+            <thead>
+                <tr>
+                    <th rowspan="2">
+                        <img width="100" src="images/a1.jpg" />
+                    </th>
+                    <th>Biz Kimiz ?</th>
+                </tr>
+                <tr>
+                    <th>
+                       <p>Biz bla blayız. ak şlad kasşl dksa alsdk aslşdak<br />a asldakkdl asjdal</p> 
+                       <p>akjsd kasjd aklj daslk djalkd jalkd ajlj şkjsşlkf jaskld jlk fjsaş skf ssdjklf sk jdsklf sj ksşfj şsajfld kjsl</p>
+
+                    </th>
+                </tr>
+            </thead>
+        </table>
+    </body>
+</html>
